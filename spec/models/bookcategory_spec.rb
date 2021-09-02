@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe Bookcategory, type: :model do
-  let(:name) { "simple name" }
+  let(:name) { 'simple name' }
   # Association test
   # ensure an item record belongs to a single todo record
   it { should belong_to(:book) }

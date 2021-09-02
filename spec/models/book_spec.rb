@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe Book, type: :model do
-  let(:name) { "simple name" }
+  let(:name) { 'simple name' }
   # Association test
   # ensure Todo model has a 1:m relationship with the Item model
   it { should have_many(:bookcategories).dependent(:destroy) }
